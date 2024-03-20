@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.cyvack.create_nerfed.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "create_nerfed.refmap.json",
+  "mixins": [
+    "CrushingWheelControllerBlockMixin",
+    "MechanicalMixerBlockEntityMixin",
+    "MillstoneBlockEntityMixin",
+    "PressingBehaviourMixin",
+    "ProcessingRecipeMixin",
+    "SawBlockEntityMixin",
+    "SpoutBlockEntityMixin",
+    "GroupingMechanic.SmartBlockEntityMixin",
+    "kineticNetwork.KineticBlockEntityMixin",
+    "kineticNetwork.KineticNetworkMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
